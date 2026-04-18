@@ -6,5 +6,3 @@ def tokeniser(texte):
     mots=re.findall(r'\w+', texte.lower())
     mots = [mot for mot in mots if mot not in STOPWORDS]
     return mots
-
-print(tokeniser("The Solar panel costs $500!"))
