@@ -4,8 +4,11 @@ from bm25 import construire_index, calculer_idf, scorer_bm25
 from embeddings import vecteur_moyen, chercher
 from hybrid import fusionner
 from textrank import decouper_phrase, text_rank
+import os
 
-texte = open("data/Solar_panel.txt").read()
+texte = ""
+for fichier in os.listdir("data"):
+    texte += open(f"data/{fichier}").read() + " "
 mots = tokeniser(texte)
 chunks = decouper(mots)
 
@@ -24,7 +27,7 @@ def poserquestion(question, chunks, index, idf):
     return reponse
 
 if __name__ == "__main__":
-    reponse = poserquestion("how do solar panels generate electricity", chunks, index, idf)
+    reponse = poserquestion("pruning", chunks, index, idf)
     for phrase, score in reponse:
         print(f"[{score:.4f}] {phrase[:100]}")
 

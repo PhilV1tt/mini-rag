@@ -25,11 +25,3 @@ def chercher(question, chunks):
         scores_embeddings[i] = cos(vec_question,vecteur_moyen(chunk)).item()
     return scores_embeddings
         
-
-
-
-texte = open("data/Solar_panel.txt").read()
-mots = tokeniser(texte)
-chunks = decouper(mots)
-resultats = chercher("how do solar panels work", chunks)
-print(resultats)
