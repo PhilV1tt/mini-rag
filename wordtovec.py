@@ -1,12 +1,15 @@
-import torch
+import torch, os
 import torch.nn as nn
 from tokeniser import tokeniser
 
-texte=open("data/Solar_panel.txt").read()
+texte = ""
+for fichier in os.listdir("data"):
+    texte += open(f"data/{fichier}").read() + " "
+
 mots = tokeniser(texte)
 mots_uniques=list(set(mots))
 taille_vocab = len(mots_uniques)
-dim_embedding = 16
+dim_embedding = 128
 
 mot_vers_id = {}
 for i, mot in enumerate(mots_uniques):
@@ -32,37 +35,45 @@ def mots_proches(mot, top_k=5):
         if autre_mot == mot:
             continue
         autre_vec = embedding_central(torch.tensor(autre_id))
-        score = torch.dot(vec, autre_vec).item()
-        scores[autre_mot] = score
+        cos = nn.functional.cosine_similarity(vec.unsqueeze(0), autre_vec.unsqueeze(0))
+        scores[autre_mot] = cos.item()
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
 
 
-embedding_central = nn.Embedding(taille_vocab, dim_embedding)
-embedding_contexte = nn.Embedding(taille_vocab, dim_embedding)
+if __name__=="__main__":
+    embedding_central = nn.Embedding(taille_vocab, dim_embedding)
+    embedding_contexte = nn.Embedding(taille_vocab, dim_embedding)
+    descente = torch.optim.SGD(list(embedding_central.parameters())+list(embedding_contexte.parameters()),lr=0.025)
+    paires = creer_paires(mots)
+    
+    centraux = torch.tensor([p[0] for p in paires])
+    contextes = torch.tensor([p[1] for p in paires])
+    batch_size = 256
+    for epoch in range(100):
+        total_loss=0
+        for i in range(0, len(paires), batch_size):
+            descente.zero_grad()
+            batch_c = centraux[i:i+batch_size]
+            batch_ctx = contextes[i:i+batch_size]
+            vec_c = embedding_central(batch_c)
+            vec_ctx = embedding_contexte(batch_ctx)
 
-descente = torch.optim.SGD(list(embedding_central.parameters())+list(embedding_contexte.parameters()),lr=0.001)
-paires = creer_paires(mots)
-for epoch in range(10):
-    total_loss=0
-    for idx, paire in enumerate(paires):
-        negative_sampling = 0
-        descente.zero_grad()
-        id_central = paire[0]
-        id_contexte = paire[1]
-        vec_central = embedding_central(torch.tensor(id_central))
-        vec_contexte = embedding_contexte(torch.tensor(id_contexte))
-        mots_negatifs = torch.randint(0, taille_vocab, (5,))
-        for mot_negatif in mots_negatifs:
-            vec_negatif = embedding_contexte(mot_negatif)
-            negative_sampling += -torch.log(torch.sigmoid(-torch.dot(vec_central,vec_negatif)))
-        produit = torch.dot(vec_central,vec_contexte)
-        loss = -torch.log(torch.sigmoid(produit)) + negative_sampling
-        loss.backward()
-        descente.step()
-        if idx % 3000 == 0:
-            print(f"Paire {idx}/{len(paires)}, loss: {loss.item():.4f}")
-        total_loss += loss.item()
-    print(f"Epoch {epoch}, loss moyenne: {total_loss/len(paires):.4f}")
+            produit = (vec_c * vec_ctx).sum(dim=1)
+            loss_pos = -torch.log(torch.sigmoid(produit)).mean()
+            
 
+            negatifs = torch.randint(0, taille_vocab, (len(batch_c), 5)) 
+            vec_neg = embedding_contexte(negatifs) 
+            produit_neg = (vec_c.unsqueeze(1) * vec_neg).sum(dim=2) 
+            loss_neg = -torch.log(torch.sigmoid(-produit_neg)).mean()
 
-print(mots_proches("solar"))
+            loss = loss_pos + loss_neg
+            loss.backward()
+            descente.step()
+            
+            total_loss += loss.item()
+        nb_batches = len(paires) // batch_size
+        print(f"Epoch {epoch}, fonction perte moyenne: {total_loss/nb_batches:.4f}")
+
+    torch.save(embedding_central.state_dict(), "vecteurs.pt")
+    print(mots_proches("solar"))

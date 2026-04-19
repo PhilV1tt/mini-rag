@@ -1,0 +1,170 @@
+Tidal power or tidal energy  is harnessed by converting energy from tides into useful forms of power, mainly electricity using various methods.
+Although not yet widely used, tidal energy has the potential for future electricity generation. Tides are more predictable than the wind and the sun. Among sources of renewable energy, tidal energy has traditionally suffered from relatively high cost and limited availability of sites with sufficiently high tidal ranges or flow velocities, thus constricting its total availability. However many recent technological developments and improvements, both in design (e.g. dynamic tidal power, tidal lagoons) and turbine technology (e.g. new axial turbines, cross flow turbines), indicate that the total availability of tidal power may be much higher than previously assumed and that economic and environmental costs may be brought down to competitive levels.
+Historically, tide mills have been used both in Europe and on the Atlantic coast of North America.  Incoming water was contained in large storage ponds, and as the tide goes out, it turns waterwheels that use the mechanical power to mill grain. The earliest occurrences date from the Middle Ages, or even from Roman times. The process of using falling water and spinning turbines to create electricity was introduced in the U.S. and Europe in the 19th century.
+Electricity generation from marine technologies increased an estimated 16% in 2018, and an estimated 13% in 2019. Policies promoting R&D are needed to achieve further cost reductions and large-scale development. The world's first large-scale tidal power plant was France's Rance Tidal Power Station, which became operational in 1966. It was the largest tidal power station in terms of output until Sihwa Lake Tidal Power Station opened in South Korea in August 2011. The Sihwa station uses sea wall defense barriers complete with 10 turbines generating 254 MW.
+
+
+== Principle ==
+
+Tidal energy is taken from the Earth's oceanic tides. Tidal forces result from periodic variations in gravitational attraction exerted by celestial bodies. These forces create corresponding motions or currents in the world's oceans. This results in periodic changes in sea levels, varying as the Earth rotates. These changes are highly regular and predictable, due to the consistent pattern of the Earth's rotation and the Moon's orbit around the Earth.  The magnitude and variations of this motion reflect the changing positions of the Moon and Sun relative to the Earth, the effects of Earth's rotation, and local geography of the seafloor and coastlines.
+Tidal power is the only technology that draws on energy inherent in the orbital characteristics of the Earth–Moon system, and to a lesser extent in the Earth–Sun system. Other natural energies exploited by human technology originate directly or indirectly from the Sun, including fossil fuel, conventional hydroelectric, wind, biofuel, wave and solar energy. Nuclear energy makes use of Earth's mineral deposits of fissionable elements, while geothermal power utilizes the Earth's internal heat, which comes from a combination of residual heat from planetary accretion (about 20%) and heat produced through radioactive decay (80%).
+A tidal generator converts the energy of tidal flows into electricity. Greater tidal variation and higher tidal current velocities can dramatically increase the potential of a site for tidal electricity generation. On the other hand, tidal energy has high reliability, excellent energy density, and high durability.
+Because the Earth's tides are ultimately due to gravitational interaction with the Moon and Sun and the Earth's rotation, tidal power is practically inexhaustible, and is thus classified as a renewable energy resource. Movement of tides causes a loss of mechanical energy in the Earth-Moon system: this results from pumping of water through natural restrictions around coastlines and consequent viscous dissipation at the seabed and in turbulence. This loss of energy has caused the rotation of the Earth to slow in the 4.5 billion years since its formation. During the last 620 million years the period of rotation of the Earth (length of a day) has increased from 21.9 hours to 24 hours; in this period the Earth-Moon system has lost 17% of its rotational energy. While tidal power will take additional energy from the system, the effect is negligible and would not be noticeable in the foreseeable future.
+
+
+== Methods ==
+
+Tidal power can be classified into four generating methods:
+
+
+=== Tidal stream generator ===
+
+Tidal stream generators make use of the kinetic energy of moving water to power turbines, in a similar way to wind turbines that use the wind to power turbines. Some tidal generators can be built into the structures of existing bridges or are entirely submersed, thus avoiding concerns over aesthetics or visual impact. Land constrictions such as straits or inlets can create high velocities at specific sites, which can be captured using turbines. These turbines can be horizontal, vertical, open, or ducted.
+
+
+=== Tidal barrage ===
+
+Tidal barrages use potential energy in the difference in height (or hydraulic head) between high and low tides. When using tidal barrages to generate power, the potential energy from a tide is seized through the strategic placement of specialized dams.  When the sea level rises and the tide begins to come in, the temporary increase in tidal power is channeled into a large basin behind the dam, holding a large amount of potential energy.  With the receding tide, this energy is then converted into mechanical energy as the water is released through large turbines that create electrical power through the use of generators.  Barrages are essentially dams across the full width of a tidal estuary.
+
+
+=== Tidal lagoon ===
+A new tidal energy design option is to construct circular retaining walls embedded with turbines that can capture the potential energy of tides. The created reservoirs are similar to those of tidal barrages, except that the location is artificial and does not contain a pre-existing ecosystem.
+The lagoons can also be in double (or triple) format without pumping  or with pumping that will flatten out the power output. The pumping power could be provided by excess to grid demand renewable energy from for example wind turbines or solar photovoltaic arrays. Excess renewable energy rather than being curtailed could be used and stored for a later period of time. Geographically dispersed tidal lagoons with a time delay between peak production would also flatten out peak production providing near baseload production at a higher cost than other alternatives such as district heating renewable energy storage. The cancelled Tidal Lagoon Swansea Bay in Wales, United Kingdom would have been the first tidal power station of this type once built.
+
+
+=== Dynamic tidal power ===
+
+Dynamic tidal power (or DTP) is a theoretical technology that would exploit an interaction between potential and kinetic energies in tidal flows. It proposes that very long dams (for example: 30–50 km length) be built from coasts straight out into the sea or ocean, without enclosing an area. Tidal phase differences are introduced across the dam, leading to a significant water-level differential in shallow coastal seas – featuring strong coast-parallel oscillating tidal currents such as found in the UK, China, and Korea.
+
+
+== US and Canadian studies in the 20th century ==
+The first study of large scale tidal power plants was by the US Federal Power Commission in 1924. If built, power plants would have been located in the northern border area of the US state of Maine and the southeastern border area of the Canadian province of New Brunswick, with various dams, powerhouses, and ship locks enclosing the Bay of Fundy and Passamaquoddy Bay (note: see map in reference). Nothing came of the study, and it is unknown whether Canada had been approached about the study by the US Federal Power Commission.
+In 1956, utility Nova Scotia Light and Power of Halifax commissioned a pair of studies into commercial tidal power development feasibility on the Nova Scotia side of the Bay of Fundy. The two studies, by Stone & Webster of Boston and by Montreal Engineering Company of Montreal, independently concluded that millions of horsepower (i.e. gigawatts) could be harnessed from Fundy but that development costs would be commercially prohibitive.
+There was also a report on the international commission in April 1961 entitled "Investigation of the International Passamaquoddy Tidal Power Project" produced by both the US and Canadian Federal Governments. According to benefit to costs ratios, the project was beneficial to the US but not to Canada. 
+A study was commissioned by the Canadian & Nova Scotian and New Brunswick governments (Reassessment of Fundy Tidal Power) to determine the potential for tidal barrages at Chignecto Bay and Minas Basin – at the end of the Fundy Bay estuary. There were three sites determined to be financially feasible: Shepody Bay (1550 MW), Cumberland Basin (1085 MW), and Cobequid Bay (3800 MW). These were never built despite their apparent feasibility in 1977.
+
+
+== US studies in the 21st century ==
+The Snohomish PUD, a public utility district located primarily in Snohomish County, Washington State, began a tidal energy project in 2007. In April 2009 the PUD selected OpenHydro, a company based in Ireland, to develop turbines and equipment for eventual installation. The project as initially designed was to place generation equipment in areas of high tidal flow and operate that equipment for four to five years. After the trial period the equipment would be removed. The project was initially budgeted at a total cost of $10 million, with half of that funding provided by the PUD out of utility reserve funds, and half from grants, primarily from the US federal government. The PUD paid for part of this project from reserves and received a $900,000 grant in 2009 and a $3.5 million grant in 2010 in addition to using reserves to pay an estimated $4 million of costs.  In 2010 the budget estimate was increased to $20 million, half to be paid by the utility, half by the federal government. The utility was unable to control costs on this project, and by October 2014, the costs had ballooned to an estimated $38 million and were projected to continue to increase. The PUD proposed that the federal government provide an additional $10 million towards this increased cost, citing a gentlemen's agreement. When the federal government refused to pay this, the PUD cancelled the project after spending nearly $10 million from reserves and grants.  The PUD abandoned all tidal energy exploration after this project was cancelled and does not own or operate any tidal energy sources.
+
+
+== Rance tidal power plant in France ==
+In 1966, Électricité de France opened the Rance Tidal Power Station, located on the estuary of the Rance River in Brittany. It was the world's first tidal power station. The plant was for 45 years the largest tidal power station in the world by installed capacity: Its 24 turbines reach peak output at 240 megawatts (MW) and average 57 MW, a capacity factor of approximately 24%.
+
+
+== Tidal power development in the UK ==
+The world's first marine energy test facility was established in 2003 to start the development of the wave and tidal energy industry in the UK. Based in Orkney, Scotland, the European Marine Energy Centre (EMEC) has supported the deployment of more wave and tidal energy devices than at any other single site in the world. EMEC provides a variety of test sites in real sea conditions. Its grid connected tidal test site is located at the Fall of Warness, off the island of Eday, in a narrow channel which concentrates the tide as it flows between the Atlantic Ocean and North Sea. This area has a very strong tidal current, which can travel up to 4 m/s (8.9 mph; 7.8 kn; 14 km/h) in spring tides.  Tidal energy developers that have tested at the site include: Alstom (formerly Tidal Generation Ltd); ANDRITZ HYDRO Hammerfest; Atlantis Resources Corporation; Nautricity; OpenHydro; Scotrenewables Tidal Power; Voith. The resource could be 4 TJ per year. Elsewhere in the UK, annual energy of 50 TWh can be extracted if 25 GW capacity is installed with pivotable blades.
+
+
+== Current and future tidal power schemes ==
+
+The Rance tidal power plant built over a period of six years from 1960 to 1966 at La Rance, France. It has 240 MW installed capacity.
+254 MW Sihwa Lake Tidal Power Plant in South Korea is the largest tidal power installation in the world. Construction was completed in 2011.
+The Jiangxia Tidal Power Station, south of Hangzhou in China has been operational since 1985, with current installed capacity of 3.2 MW. More tidal power is planned near the mouth of the Yalu River.
+The first in-stream tidal current generator in North America (Race Rocks Tidal Power Demonstration Project) was installed at Race Rocks on southern Vancouver Island in September 2006. The Race Rocks project was shut down after operating for five years (2006–2011) because high operating costs produced electricity at a rate that was not economically feasible. The next phase in the development of this tidal current generator will be in Nova Scotia (Bay of Fundy).
+A small project was built by the Soviet Union at Kislaya Guba on the Barents Sea. It has 0.4 MW installed capacity. In 2006 it was upgraded with a 1.2 MW experimental advanced orthogonal turbine.
+Jindo Uldolmok Tidal Power Plant in South Korea is a tidal stream generation scheme planned to be expanded progressively to 90 MW of capacity by 2013. The first 1 MW was installed in May 2009.
+A 1.2 MW SeaGen system became operational in late 2008 on Strangford Lough in Northern Ireland. It was decommissioned and removed in 2016.
+The contract for an 812 MW tidal barrage near Ganghwa Island (South Korea) north-west of Incheon has been signed by Daewoo. Completion was planned for 2015 but project was retracted in 2013.
+A 1,320 MW barrage was proposed by the South Korean government in 2009, to be built around islands west of Incheon. The project halted since 2012 due to environmental concerns.
+The Scottish Government has approved plans for a 10 MW ''Òran na Mara'' array of tidal stream generators near Islay, Scotland, costing 40 million pounds, and consisting of 10 turbines – enough to power over 5,000 homes. The first turbine was expected to be in operation by 2013 and then once again announced in 2021, but as of 2023 none existed.
+The Indian state of Gujarat was planning to host South Asia's first commercial-scale tidal power station. The company Atlantis Resources planned to install a 50 MW tidal farm in the Gulf of Kutch on India's west coast, with construction planned to start 2012, later withdrawn due to high costs.
+Ocean Renewable Power Corporation was the first company to deliver tidal power to the US grid in September 2012 when its pilot TidGen system was successfully deployed in Cobscook Bay, near Eastport.
+In New York City, Verdant Power successfully deployed and operated three tidal turbines in the East River near Roosevelt Island, on a single triangular base system, called a TriFrame.  The Roosevelt Island Tidal Energy (RITE) Project generated over 300MWh of electricity to the local grid, an American marine energy record. The system's performance was independently confirmed by Scotland's European Marine Energy Centre (EMEC) under the new International Electrotechnical Commission (IEC) international standards.  This is the first instance of a third-party verification of a tidal energy converter to an international standard.
+The largest tidal energy project entitled MeyGen (398 MW) is currently in construction in the Pentland Firth in northern Scotland with 6 MW operational since 2018.
+Construction of a 320 MW tidal lagoon power plant outside the city of Swansea in the UK was granted planning permission in June 2015, however it was later rejected by the UK government in 2018. If built it would have been the world's first tidal power plant based on a constructed lagoon.
+Mersey Tidal Power, a proposed tidal range barrage within the channel of the Mersey Estuary with a capacity of up to 1 GW is undergoing local consultation by the Liverpool City Region Combined Authority.
+Up to 240 MW of tidal stream generation is proposed at Morlais, Anglesey from multiple developers, with the first turbines expected to be installed in 2026. As of 2024, a total of 38 MW of capacity has been awarded Contracts for Difference to supply power to the GB grid.
+The West Somerset Lagoon is a proposed tidal lagoon on the south side of the Bristol Channel between England and Wales. The intended power generation is 6.5 TWh/year.
+
+
+== Issues and challenges ==
+
+
+=== Environmental concerns ===
+Tidal power can affect marine life. The turbines' rotating blades can accidentally kill swimming sea life. Projects such as the one in Strangford include a safety mechanism that turns off the turbine when marine animals approach. However, this feature causes a major loss in energy because of the amount of marine life that passes through the turbines. Some fish may avoid the area if threatened by a constantly rotating or noisy object. Marine life is a huge factor when siting tidal power energy generators, and precautions are taken to ensure that as few marine animals as possible are affected by it. In terms of global warming potential (i.e. carbon footprint), the impact of tidal power generation technologies ranges between 15 and 37 gCO2-eq/kWhe, with a median value of 23.8 gCO2-eq/kWhe. This is in line with the impact of other renewables like wind and solar power, and significantly better than fossil-based technologies. The Tethys database provides access to scientific literature and general information on the potential environmental effects of tidal energy.
+
+
+==== Tidal turbines ====
+The main environmental concern with tidal energy is associated with blade strike and entanglement of marine organisms as high-speed water increases the risk of organisms being pushed near or through these devices. As with all offshore renewable energies, there is also a concern about how the creation of electromagnetic fields and acoustic outputs may affect marine organisms. Because these devices are in the water, the acoustic output can be greater than those created with offshore wind energy. Depending on the frequency and amplitude of sound generated by the tidal energy devices, this acoustic output can have varying effects on marine mammals (particularly those who echolocate to communicate and navigate in the marine environment, such as dolphins and whales). Tidal energy removal can also cause environmental concerns such as degrading far-field water quality and disrupting sediment processes. Depending on the size of the project, these effects can range from small traces of sediment building up near the tidal device to severely affecting nearshore ecosystems and processes.
+
+
+==== Tidal barrage ====
+Installing a barrage may change the shoreline within the bay or estuary, affecting a large ecosystem that depends on tidal flats. Inhibiting the flow of water in and out of the bay, there may also be less flushing of the bay or estuary, causing additional turbidity (suspended solids) and less saltwater, which may result in the death of fish that act as a vital food source to birds and mammals. Migrating fish may also be unable to access breeding streams, and may attempt to pass through the turbines. The same acoustic concerns apply to tidal barrages. Decreasing shipping accessibility can become a socio-economic issue, though locks can be added to allow slow passage. However, the barrage may improve the local economy by increasing land access as a bridge. Calmer waters may also allow better recreation in the bay or estuary. In August 2004, a humpback whale swam through the open sluice gate of the Annapolis Royal Generating Station at slack tide, ending up trapped for several days before eventually finding its way out to the Annapolis Basin.
+
+
+==== Tidal lagoon ====
+Environmentally, the main concerns are blade strike on fish attempting to enter the lagoon, the acoustic output from turbines, and changes in sedimentation processes. However, all these effects are localized and do not affect the entire estuary or bay.
+
+
+=== Corrosion ===
+Saltwater causes corrosion in metal parts. It can be difficult to maintain tidal stream generators due to their size and depth in the water. The use of corrosion-resistant materials such as stainless steels, high-nickel alloys, copper-nickel alloys, nickel-copper alloys and titanium can greatly reduce, or eliminate corrosion damage. Composite materials could also be used, as composites do not corrode and could provide lightweight, durable structures for tidal power. Composite materials are being evaluated for tidal power.
+Mechanical fluids, such as lubricants, can leak out, which may be harmful to the marine life nearby. Proper maintenance can minimize the number of harmful chemicals that may enter the environment.
+
+
+=== Fouling ===
+The biological events that happen when placing any structure in an area of high tidal currents and high biological productivity in the ocean will ensure that the structure becomes an ideal substrate for the growth of marine organisms.
+
+
+=== Cost ===
+Tidal energy has a high initial cost, which may be one of the reasons why it is not a popular source of renewable energy, although research has shown that the public is willing to pay for and support research and development of tidal energy devices. The methods of generating electricity from tidal energy are relatively new technology.  Tidal energy is however still very early in the research process and it may be possible to reduce costs in future. The cost-effectiveness varies according to the site of the tidal generators. One indication of cost-effectiveness is the Gibrat ratio, which is the length of the barrage in metres divided by the annual energy production in kilowatt hours.
+As tidal energy is reliable, it can reasonably be predicted how long it will take to pay off the high up-front cost of these generators. Due to the success of a greatly simplified design, the orthogonal turbine offers considerable cost savings. As a result, the production period of each generating unit is reduced, lower metal consumption is needed and technical efficiency is greater.
+A possible risk is rising sea levels due to climate change, which may alter the characteristics of the local tides reducing future power generation.
+
+
+== Structural health monitoring ==
+The high load factors resulting from the fact that water is around 800 times denser than air, and the predictable and reliable nature of tides compared with the wind, make tidal energy particularly attractive for electric power generation. Condition monitoring is the key for exploiting it cost-efficiently.
+
+
+== See also ==
+
+Hydroelectricity
+Hydropower
+List of tidal power stations
+Run-of-the-river hydroelectricity
+Structural health monitoring
+Tidal barrage
+Tidal farm
+Tidal power in Canada
+Tidal power in New Zealand
+Tidal power in Scotland
+Tidal stream generator
+Marine energy
+Marine current power
+Wave power
+Ocean thermal energy conversion
+Osmotic power
+World energy consumption
+
+
+== References ==
+
+
+== Further reading ==
+Baker, A. C. 1991, Tidal power, Peter Peregrinus Ltd., London.
+Baker, G. C., Wilson E. M., Miller, H., Gibson, R. A. & Ball, M., 1980. "The Annapolis tidal power pilot project", in Waterpower '79 Proceedings, ed. Anon, U.S. Government Printing Office, Washington, pp 550–559.
+Hammons, T. J. 1993, "Tidal power", Proceedings of the IEEE, [Online], v81, n3, pp 419–433. Available from: IEEE/IEEE Xplore. [July 26, 2004].
+Lecomber, R. 1979, "The evaluation of tidal power projects", in Tidal Power and Estuary Management, eds. Severn, R. T., Dineley, D. L. & Hawker, L. E., Henry Ling Ltd., Dorchester, pp 31–39.
+Jubilo, A., 2019, "Renewable Tidal Energy Potential: Basis for Technology Development in Eastern Mindanao", 80th PIChE National Convention; Crowne Plaza Galleria, Ortigas Center, Quezon City, Philippines.
+Could the UK's tides help wean us off fossil fuels?. BBC News. Published 22 October 2023.
+Enhancing Electrical Supply by Pumped Storage in Tidal Lagoons. David J.C. MacKay, Cavendish Laboratory, University of Cambridge, UK. Published 3 May 2007.
+Turning the Tide: Tidal Power in the UK – Report by Sustainable Development Commission. Published October 2007.
+2007 – Report by Global Energy Survey. Published 2007.
+
+
+== External links ==
+
+Portal and Repository for Information on Marine Renewable Energy A network of databases providing broad access to marine energy information.
+Marine Energy Basics: Current Energy Basic information about current energy.
+Marine Energy Projects Database A database that provides up-to-date information on marine energy deployments in the U.S. and around the world.
+Tethys Database A database of information on potential environmental effects of marine energy and offshore wind energy development.
+Tethys Engineering Database A database of information on technical design and engineering of marine energy devices.
+Marine and Hydrokinetic Data Repository A database for all data collected by marine energy research and development projects funded by the U.S. Department of Energy.
+Severn Estuary Partnership: Tidal Power Resource Page
+University of Strathclyde ESRU—Detailed analysis of marine energy resource, current energy capture technology appraisal and environmental impact outline
+Coastal Research – Foreland Point Tidal Turbine and warnings on proposed Severn Barrage
+European Marine Energy Centre – Listing of Tidal Energy Developers -retrieved 1 July 2011 (link updated 31 January 2014)
+Resources on Tidal Energy
+Structural Health Monitoring of composite tidal energy converters Archived 2014-03-25 at the Wayback Machine
+Tidal Power: A New Source of Energy (1959)
+Tidal projects funded by the Australian Renewable Energy Agency

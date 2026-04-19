@@ -1,0 +1,33 @@
+Biomass is material produced by the growth of microorganisms, plants or animals. Beyond this general definition, there are differences in how the term is used and applied depending on industry or subject-matter norms. For example, it may be more narrowly defined as just plant matter, or as a combination of plant and animal matter.
+
+
+== Composition ==
+The composition of a specific source of biomass depends on whether it is derived from plants, animals, microorganisms, or some mixture of all biological matter. Biomass may also contain material from non-biological origin, due to contamination from anthropogenic activities.
+The table below summarizes the main types of biomasses and their typical sources.
+
+The composition of biomass on a chemical level is determined by whether it is plant or animal matter.
+
+
+== Biomass in energy and conversion processes ==
+
+Biomass is a form of renewable energy useful as fuel and a some of chemical products.  Relative to coal and petroleum however, the energy content of biomass is low.  Compared to traditional fossil fuels, biomass has a high oxygen content.  It's carbon is partially combusted, so to speak. One such notable example is the production of bio-ethanol.
+There is a general classification of biomass that is produced or sourced for conversion processes. Biofuels such as bioethanol and biodiesel, and bioplastics, are typically derived from primary or “first-generation” source energy-dense plants and oils such as rapeseed, sugarcane, or corn. Their high content of sugars and oils makes them ideal as feedstocks, however, there are drawbacks to their use. As well as inflating the price of the chosen crop due to increased demand, arable land that would otherwise be used to grow food for human and animal consumption is rendered unavailable. 
+Secondary or “second-generation” source biomass encompasses a much wider variety of plant and animal matter. It may be derived from a relatively pure source, such as wood chippings or grass, or it may be a less well defined solid waste stream. This type of biomass is far more challenging to work with, as it contains a more varied mixture of compounds that cannot be easily converted into useful products. Despite this, there continues to be intensive research and industry interest in second-generation biomass conversion processes due to its potential to re-use potentially valuable products and derivative products that would otherwise be wasted by incineration.
+
+
+== Biomass in ecology ==
+
+In ecological studies, biomass refers to the total amount of biological organisms that are present in a given environment or ecosystem. It may encompass the entirety of biological matter, or a subset of species or individuals. It is typically expressed as the total weight of carbon that is contained within the chosen group of organisms. A 2017 estimate of the total amount of biomass within the biosphere is approximately 550 gigatons of carbon, with a significant majority of this being terrestrial plants (approx. 450 Gt C). To calculate that, remote sensing techniques such as the Normalized difference vegetation index (NDVI), is commonly used to estimate biomass over large scales.
+
+
+== Other definitions ==
+In biological wastewater treatment processes, such as the activated sludge process, the term "biomass" is used to denote the mass of bacteria and other microorganisms that break down pollutants in wastewater. The biomass forms part of sewage sludge.
+Waste biomass fibre - potential source for cleaner production of textiles.
+Biomass (satellite) - an Earth observation satellite.
+
+
+== See also ==
+Biotic material
+
+
+== References ==
