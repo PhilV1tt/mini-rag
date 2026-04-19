@@ -1,39 +1,62 @@
 import urllib.request
 import urllib.parse
-import json
-def fetch_article(title):
-    url = f"https://en.wikipedia.org/w/api.php?action=query&prop=extracts&titles={title}&explaintext=1&format=json"
-    req = urllib.request.Request(url, headers={"User-Agent" : "mini-rag",})
+import xml.etree.ElementTree as ET
+import os
+import time
+
+def chercher_arxiv(requete, max_resultats=100):
+    requete_encodee = urllib.parse.quote(requete)
+    url = f"http://export.arxiv.org/api/query?search_query=all:{requete_encodee}&max_results={max_resultats}&sortBy=relevance"
+    req = urllib.request.Request(url, headers={"User-Agent": "MiniRAG/1.0"})
     response = urllib.request.urlopen(req)
-    data = json.loads(response.read())
-    #fichier_test = open("temp.json","w")
-    #fichier_test.write(json.dumps(data, indent=2))
-    #fichier_test.close()
-    page = list(data["query"]["pages"].values())[0]
-    extrait = page["extract"]
-    return extrait 
+    xml_brut = response.read()
+    racine = ET.fromstring(xml_brut)
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    articles = []
+    for entree in racine.findall("atom:entry", ns):
+        titre = entree.find("atom:title", ns).text.strip().replace("\n", " ")
+        resume = entree.find("atom:summary", ns).text.strip().replace("\n", " ")
+        article_id = entree.find("atom:id", ns).text.strip().split("/")[-1]
+        articles.append({"id": article_id, "titre": titre, "resume": resume})
+    return articles
+
+def sauvegarder(articles, dossier="data"):
+    os.makedirs(dossier, exist_ok=True)
+    for article in articles:
+        nom_fichier = article["id"].replace(".", "_").replace("/", "_")
+        chemin = os.path.join(dossier, f"{nom_fichier}.txt")
+        contenu = f"{article['titre']}\n\n{article['resume']}"
+        fichier = open(chemin, "w")
+        fichier.write(contenu)
+        fichier.close()
 
 if __name__ == "__main__":
-    titles = [
-      "Solar_panel", "Solar_energy", "Photovoltaics", "Solar_cell",
-      "Renewable_energy", "Wind_power", "Nuclear_power", "Hydroelectricity",
-      "Electricity", "Electric_battery", "Lithium-ion_battery",
-      "Power_station", "Electrical_grid", "Energy_storage",
-      "Photovoltaic_system", "Solar_inverter", "Net_metering",
-      "Concentrated_solar_power", "Solar_thermal_energy",
-      "Semiconductor", "Silicon", "Thin-film_solar_cell",
-      "Perovskite_solar_cell", "Solar_tracker", "Maximum_power_point_tracking",
-      "Greenhouse_gas", "Climate_change", "Carbon_footprint",
-      "Energy_transition", "Fossil_fuel", "Natural_gas", "Coal",
-      "Petroleum", "Geothermal_energy", "Biomass", "Tidal_power",
-      "Wave_power", "Fuel_cell", "Hydrogen_economy",
-      "Electric_vehicle", "Heat_pump", "Insulation",
-      "Energy_efficiency", "Smart_grid", "Microgrid",
-      "Transformer", "Alternating_current", "Direct_current",
-      "Superconductivity", "Photon"
-  ]
-    for title in titles:
-        article = open(f"data/{title}.txt", "w")
-        article.write(fetch_article(title))
-        article.close()
+    requetes = [
+        "model compression pruning quantization",
+        "knowledge distillation neural network",
+        "pruning deep neural networks",
+        "quantization aware training",
+        "neural network optimization efficiency",
+        "model compression survey",
+        "sparse neural networks",
+        "low rank approximation neural",
+        "efficient inference deep learning",
+        "mixed precision training",
+    ]
+    tous_les_articles = []
+    for requete in requetes:
+        print(f"Recherche: {requete}")
+        articles = chercher_arxiv(requete, max_resultats=50)
+        tous_les_articles.extend(articles)
+        print(f"  -> {len(articles)} articles trouves")
+        time.sleep(3)
 
+    ids_vus = set()
+    articles_uniques = []
+    for article in tous_les_articles:
+        if article["id"] not in ids_vus:
+            ids_vus.add(article["id"])
+            articles_uniques.append(article)
+
+    sauvegarder(articles_uniques)
+    print(f"\n{len(articles_uniques)} articles uniques sauvegardes dans data/")
