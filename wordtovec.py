@@ -33,12 +33,12 @@ def creer_paires(mots, fenetre=2):
     return paires
 
 def mots_proches(mot, top_k=5):
-    vec = embedding_central(torch.tensor(mot_vers_id[mot]).to(device))
+    vec = embedding_central(torch.tensor(mot_vers_id[mot]))
     scores = {}
     for autre_mot, autre_id in mot_vers_id.items():
         if autre_mot == mot:
             continue
-        autre_vec = embedding_central(torch.tensor(autre_id).to(device))
+        autre_vec = embedding_central(torch.tensor(autre_id))
         cos = nn.functional.cosine_similarity(vec.unsqueeze(0), autre_vec.unsqueeze(0))
         scores[autre_mot] = cos.item()
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
@@ -79,6 +79,6 @@ if __name__=="__main__":
             total_loss += loss.item()
         nb_batches = len(paires) // batch_size
         print(f"Epoch {epoch}, fonction perte moyenne: {total_loss/nb_batches:.4f}")
-
     torch.save(embedding_central.state_dict(), "vecteurs.pt")
+    embedding_central = embedding_central.to("cpu")
     print(mots_proches("pruning"))
