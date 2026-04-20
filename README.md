@@ -1,5 +1,5 @@
 # Pediluve pour l'intelligence Lab
 
-1 - Lancer wordtovec.py pour entrainer les vecteurs
-
-2 - lancer rag.py
+1. Scraper les articles : python scraper.py
+2. Entrainer les embeddings : python wordtovec.py
+3. Lancer le RAG : python rag.py
